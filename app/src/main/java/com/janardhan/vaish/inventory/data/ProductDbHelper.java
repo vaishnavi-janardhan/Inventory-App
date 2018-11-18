@@ -8,7 +8,7 @@ import android.util.Log;
 
 import com.janardhan.vaish.inventory.data.ProductContract.ProductEntry;
 
-public class ProductDbHelper extends SQLiteOpenHelper {
+class ProductDbHelper extends SQLiteOpenHelper {
 
     /** Name of the database file */
     private static final String DATABASE_NAME = "inventory.db";
@@ -25,7 +25,7 @@ public class ProductDbHelper extends SQLiteOpenHelper {
      *
      * @param context of the app
      */
-    public ProductDbHelper(@Nullable Context context) {
+    ProductDbHelper(@Nullable Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
