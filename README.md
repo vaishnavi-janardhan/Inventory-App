@@ -10,3 +10,15 @@ the user to order more from the listed supplier.<br>
 - Display the contents of the table to users.<br><br>
 
 [Project Review Rubric](https://review.udacity.com/#!/rubrics/1145/view)
+
+## <br>Project Inventory App - Stage II
+<br>This project involves adding more UI features to the inventory, so that the users can add/delete items from the database.<br>
+### Learning Outcomes:<br>
+- Storing information in a SQLite database
+- Integrating Android’s file storage systems into that database
+- Setting up a Content Provider and use it to access a repository of data
+- Presenting information from files and SQLite databases to users
+- Updating information based on user input
+- Creating intents to other apps using stored information<br><br>
+
+[Project Review Rubric](https://review.udacity.com/#!/rubrics/1156/view)
